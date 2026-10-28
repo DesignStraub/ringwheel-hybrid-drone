@@ -10,7 +10,7 @@ A 5-inch FPV quadcopter that lands, folds its four ducts down by 90° and drives
 |---|---|
 | ![Flight mode](docs/images/flight_mode.png) | ![Drive mode](docs/images/drive_mode.png) |
 
-**Video:** [55-second walkthrough with narration](docs/video/ringwheel.mp4) (MP4, 17 MB)
+**Video:** [Watch the 55-second walkthrough on YouTube](https://www.youtube.com/shorts/o1WtWeNPCIw) or download it in 16:9 as [MP4](docs/video/ringwheel.mp4) (17 MB)
 
 ## How it works
 
