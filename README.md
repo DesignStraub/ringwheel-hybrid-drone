@@ -2,11 +2,15 @@
 
 A 5-inch FPV quadcopter that lands, folds its four ducts down by 90° and drives away on them. Each duct ring has a tread and turns into a wheel. The same four motors fly the drone and drive the wheels.
 
+<p align="center"><img src="docs/images/fold.gif" width="600" alt="Ringwheel folding from flight mode into drive mode and back"></p>
+
 > **Status: design study.** Nothing here has been built, printed or flown yet. All dimensions, gear meshes and PCB traces are unverified until someone builds it. If you do, please open an issue and tell me what broke.
 
 | Flight mode | Drive mode |
 |---|---|
 | ![Flight mode](docs/images/flight_mode.png) | ![Drive mode](docs/images/drive_mode.png) |
+
+**Video:** [55-second walkthrough with narration](docs/video/ringwheel.mp4) (MP4, 17 MB)
 
 ## How it works
 
@@ -43,6 +47,7 @@ A 5-inch FPV quadcopter that lands, folds its four ducts down by 90° and drives
 | `electronics/` | KiCad 10 projects for HC-1 and EP-1, schematics as PDF, 3D models |
 | `electronics/Fertigung/` | Gerber, BOM and placement files for JLCPCB |
 | `docs/Kostenliste.md` | Full parts list with shop links and prices (German) |
+| `docs/video/ringwheel.mp4` | Narrated walkthrough rendered from the Fusion model |
 
 The detailed docs are in German for now. Translations are welcome.
 
@@ -59,6 +64,7 @@ The detailed docs are in German for now. Translations are welcome.
 
 - Inspired by [Michael Rechtin's transforming drone](https://www.youtube.com/watch?v=f1GSzysrYtw). No files from his project are used here.
 - CAD modelling, PCB layout and documentation were done with heavy AI assistance (Claude by Anthropic). That is one more reason to check every dimension before printing.
+- Video narration generated with ElevenLabs (voice "Roger").
 - Footprints and 3D models from the KiCad libraries remain under their own license. Product names belong to their respective owners.
 
 ## License
