@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# KiCad local and generated files
+*.kicad_prl
+*-backups/
+fp-info-cache
+_autosave-*
+*.lck
+
+# Fusion temporary exports
+*.f3d.tmp

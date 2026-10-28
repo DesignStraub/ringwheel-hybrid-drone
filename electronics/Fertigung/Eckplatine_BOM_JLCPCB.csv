@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC Part #
+100nF,C1,C_0603_1608Metric,
+100nF,C2,C_0402_1005Metric,
+1uF,C3,C_0402_1005Metric,
+vom Hybrid-Controller,J1,JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal,C265111
+zum Radmodul (Muffensensor),J2,JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal,C189896
+4.7k,"R1,R2",R_0402_1005Metric,
+AS5600-ASOM,U1,SOIC-8_3.9x4.9mm_P1.27mm,C79815

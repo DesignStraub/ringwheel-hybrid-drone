@@ -1,0 +1,7 @@
+*.f3d binary
+*.step binary
+*.zip binary
+*.png binary
+*.pdf binary
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf

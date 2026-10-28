@@ -1,0 +1,136 @@
+{
+ "J1": {
+  "footprint": "Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",
+  "value": "vom Hybrid-Controller",
+  "uuid": "50f89281-ba14-4012-8f4e-efe1aaaea240",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "VBAT_F",
+   "2": "COIL-",
+   "3": "+3V3",
+   "4": "GND",
+   "5": "HALL",
+   "6": "ANGLE",
+   "7": "N20_A",
+   "8": "N20_B"
+  }
+ },
+ "J2": {
+  "footprint": "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal",
+  "value": "zum Radmodul (Muffensensor)",
+  "uuid": "ab594b54-08cd-4ab5-8c20-a3b3e7a4e465",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "HALL",
+   "2": "GND",
+   "3": "+3V3",
+   "4": "COIL-",
+   "5": "VBAT_F"
+  }
+ },
+ "J3": {
+  "footprint": "Connector_Wire:SolderWire-0.15sqmm_1x02_P4mm_D0.5mm_OD1.5mm",
+  "value": "N20-Motor",
+  "uuid": "c71a9115-16f0-4ba5-86ce-d553fd945d17",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "N20_A",
+   "2": "N20_B"
+  }
+ },
+ "C1": {
+  "footprint": "Capacitor_SMD:C_0603_1608Metric",
+  "value": "100nF",
+  "uuid": "e244e8a1-2967-4603-976f-33a0742d3ce7",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "N20_A",
+   "2": "N20_B"
+  }
+ },
+ "U1": {
+  "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+  "value": "AS5600-ASOM",
+  "uuid": "76cc5e0c-987f-4ad7-890c-20c0c2300bb8",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "+3V3",
+   "2": "+3V3",
+   "8": "GND",
+   "4": "GND",
+   "3": "ANGLE",
+   "5": null,
+   "6": "SDA",
+   "7": "SCL"
+  }
+ },
+ "C2": {
+  "footprint": "Capacitor_SMD:C_0402_1005Metric",
+  "value": "100nF",
+  "uuid": "75d9d941-5fde-4704-a95a-d3c384bbaf6d",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "+3V3",
+   "2": "GND"
+  }
+ },
+ "C3": {
+  "footprint": "Capacitor_SMD:C_0402_1005Metric",
+  "value": "1uF",
+  "uuid": "bfe46264-67eb-4606-95c4-bc387f329f8a",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "+3V3",
+   "2": "GND"
+  }
+ },
+ "R1": {
+  "footprint": "Resistor_SMD:R_0402_1005Metric",
+  "value": "4.7k",
+  "uuid": "bd86c431-d46c-43ad-b359-5802fafa9e36",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "+3V3",
+   "2": "SDA"
+  }
+ },
+ "R2": {
+  "footprint": "Resistor_SMD:R_0402_1005Metric",
+  "value": "4.7k",
+  "uuid": "27d07bde-93c9-4d10-94d5-920fc9d769aa",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "+3V3",
+   "2": "SCL"
+  }
+ },
+ "TP1": {
+  "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+  "value": "SDA",
+  "uuid": "db30883c-3cb3-43f4-8ed8-d89ac4fe69dc",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "SDA"
+  }
+ },
+ "TP2": {
+  "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+  "value": "SCL",
+  "uuid": "3786fda9-67ef-4186-8cf6-e005e03b0195",
+  "lcsc": "",
+  "note": "",
+  "pads": {
+   "1": "SCL"
+  }
+ }
+}
